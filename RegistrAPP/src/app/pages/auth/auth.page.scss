@@ -1,0 +1,37 @@
+.div-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .auth-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .validators {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .ion-button {
+    --border-radius: 8px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    .auth-form {
+      max-width: 500px;
+    }
+  }
+  
